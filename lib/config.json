@@ -1,9 +1,50 @@
 {
-  "elements": [{
-      "name": "my-new-label",
-      "type": "label",
-      "label": "my 🔥 label",
-      "color": "#FF9300"
+  "elements": [
+    {
+      "name": "treeview-button",
+      "type": "icon-button",
+      "icon": "/Users/mark/.atom/packages/touchbar/icons/NSTouchBarSidebarTemplate.png",
+      "command": "tree-view:toggle"
+    },
+    {
+      "name": "pane-button",
+      "type": "icon-button",
+      "icon": "/Users/mark/.atom/packages/touchbar/icons/NSColumnViewTemplate.png",
+      "command": "pane:split-right-and-copy-active-item"
+    },
+    {
+      "name": "spacer",
+      "type": "spacer",
+      "size": "small"
+    },
+    {
+      "name": "browser-button",
+      "type": "icon-button",
+      "icon": "/Users/mark/.atom/packages/touchbar/icons/NSTouchBarOpenInBrowserTemplate.png",
+      "command": "open-in-browsers:toggle"
+    },
+    {
+      "name": "browser-button",
+      "type": "button",
+      "label": ">_",
+      "command": "open-terminal-here:open"
+    },
+    {
+      "name": "spacer",
+      "type": "spacer",
+      "size": "small"
+    },
+    {
+      "name": "search-button",
+      "type": "icon-button",
+      "icon": "/Users/mark/.atom/packages/touchbar/icons/NSTouchBarSearchTemplate.png",
+      "command": "fuzzy-finder:toggle-file-finder"
+    },
+    {
+      "name": "toggle-command-palette",
+      "type": "button",
+      "label": "cmd",
+      "command": "command-palette:toggle"
     },
     {
       "name": "spacer",
@@ -14,36 +55,11 @@
       "name": "comment-button",
       "type": "button",
       "label": "//",
-      "command": "editor:toggle-line-comments",
-      "color": "#5712d6"
-    },
-    {
-      "name": "beautify-button",
-      "type": "button",
-      "label": "💅",
-      "command": "atom-beautify:beautify-editor",
-      "color": "#83FF8F"
+      "command": "editor:toggle-line-comments"
     },
     {
       "name": "color-picker",
       "type": "color-picker"
-    },
-    {
-      "type": "popover",
-      "label": "😄",
-      "elements": [{
-          "name": "emoji-scrubber",
-          "type": "scrubber",
-          "label": "😄",
-          "items": "emojis"
-        }
-      ]
-    },
-    {
-      "name": "toggle-command-palette",
-      "type": "button",
-      "label": "🎨",
-      "command": "command-palette:toggle"
     }
   ]
 }

@@ -10,6 +10,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "electron-named-image": "^1.0.2",
     "etch": "^0.12.4"
   }
 }
