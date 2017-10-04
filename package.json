@@ -4,7 +4,7 @@
   "version": "0.3.13",
   "description": "Add touchbar elements to atom",
   "keywords": [],
-  "repository": "https://github.com/felixerdy/touchbar",
+  "repository": "https://github.com/zappmonkey/touchbar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
